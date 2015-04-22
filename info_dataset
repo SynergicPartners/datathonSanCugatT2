@@ -1,0 +1,114 @@
+
+
+								cateogria: tipos de contenedores
+								
+CAT_ID: Id de fila
+CAT_CLA_ID:  id de clase de categoria
+CAT_CODIGO: codigo de categoria
+CAT_TRE_ID
+CAT_ICO_ID
+
+								elementos: contenedores
+								
+ELE_COD2 :identificador de contenedor
+ELE_CODAUXILIAR: identificador de contenedor alternativo
+ELE_DESCRIPCION: Descripcion del contenedor
+ELE_FECHA_ALTA: Fecha de alta del contenedor
+ELE_FECHA_BAJA: Fecha de baja del contenedor
+ELE_ICO_ID: Tipo de contenedor (relacion con categoria, CAT_ICO_ID)
+ELE_LONGITUD: geolocalizacion del contenedor (longitud)
+ELE_LATITUD: geolocalizacion del contenedor (latitud)
+ELE_COLOR: color del contenedor
+ELE_RADIO: radio del contenedor
+ELE_INFO: informacion adicional sobre el contenedor
+ELE_ULTIMOCAMBIO: ultimo cambio del contenedor si tiviese
+ELE_ULTIMOCAMBIO_USU_ID: id del usuario que realizo el ultimo cambio
+
+								posiciones: geolocalizaciones
+							
+POS_EVE_ID: Identificador del evento
+POS_LATITUD: Latitud
+POS_LONGITUD: Longitud
+POS_ALTITUD: Altitud
+POS_FECHAHORA: fecha de la geolocalizacion
+POS_FECHAHORASAT: fecha de la geolocalizacion
+POS_SAT: posicion satelite
+POS_SATTOT: posicion satelite total
+POS_VELOCIDAD: velocidad en el punto geolocalizado
+POS_CALIDAD: Calidad de posicion
+POS_RUMBO: codigo del rumbo 
+POS_DIR_ID: codigo de la direccion
+
+
+							recogidas: Posiciones de recogidas de basuras
+REC_TIPO_SERVICIO: tipo de servicio
+REC_FECHAHORA: fechahora de recogida
+REC_TRA_ID: Id de transopoder
+REC_PESO_RECOGIDA: peso de la recogida
+REC_PESO_NETO: peso neto
+REC_PESO_BRUTO: peso bruto
+REC_PESO_ORIGINAL: peso original
+REC_MULTIPLICADOR: multiplicador
+REC_POS_ID: Id de posicion
+REC_ID_ELEVADOR: Id de elevador
+REC_TIPO_ELEVADOR: tipo de elevador
+REC_LLENADO: Es llenado
+
+							transpoders: localizadores colocados en vehiculos
+							
+TRA_LICENCIA: licencia del transpoder
+TRA_PROCEDENCIA: procedencia del transpoder
+TRA_TIPOINTERNO: tipologia del transpoder
+TRA_INFO: informacion sobre el transpoder
+TRA_ULTIMOCAMBIO: ultimo cambio del transpoder
+TRA_ULTIMOCAMBIO_USU_ID: id de usuario que realizo el cambio
+
+
+							vehiculos
+							
+VEH_TVE_ID: codigo de identificacion del vehiculo
+VEH_DESCRIPCION: Descripcion del vehiculo
+VEH_MATRICULA: Matricula del vehiculo
+VEH_CALCA: Calca del numero de chasis del vehiculo
+VEH_MARCA: Marca del vehiculo
+VEH_MODELO: Modelo del vehiculo
+VEH_IDEXTERNO: id externo
+VEH_IDINTERNO: id interno
+VEH_HUSOHORARIO: huso horario
+VEH_HAYHORARIOVERANO: esta en horario de verano
+VEH_ULTIMACOMUNICACION: ultima comunicacion
+VEH_INFO: informacion del vehiculo
+VEH_ICO_ID: Identificador
+VEH_ICO_ID_T0
+VEH_ICO_ID_T1
+VEH_ICO_ID_T2
+VEH_ICO_ID_T3
+VEH_HORARIO_INI: Horario inicial
+VEH_HORARIO_FIN: Horario fin 
+VEH_ULTIMA_POS_ID: Ultima posicion
+VEH_ALARMAS: Alarmas
+VEH_IDI_ID 
+VEH_MODO_RUTAS
+VEH_EMAIL: email asociado
+
+						x_cat_ele: relacion categoria-elementos
+						
+XCE_ID: relacion categoria-elemento. Id fila
+XCE_CAT_ID: relacion categoria-elemento. Id categoria 
+XCE_ELE_ID: relacion categoria-elemento. Id elemento
+XCE_FECHA_DESDE: relacion categoria-elemento fecha desde
+XCE_FECHA_HASTA: relacion categoria-elemento fecha hasta 
+
+						x_ele_tra: relacion elementos-transpoders
+						
+XET_ID: relacion elemento-transpoder. Id fila
+XET_ELE_ID: relacion elemento-transpoder. Id elemento
+XET_TRA_ID: relacion elemento-transpoder. Id transpoder
+XET_FECHA_DESDE: relacion elemento-transpoder fecha desde
+XET_FECHA_HASTA: relacion elemento-transpoder fecha hasta
+XET_OPE_ID_DESDE: relacion elemento-transpoder. Operacion desde
+XET_OPE_ID_HASTA: relacion elemento-transpoder. Operacion hasta
+
+
+
+
